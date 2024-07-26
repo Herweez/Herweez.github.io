@@ -579,7 +579,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #888888;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -598,7 +598,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #000000;
 }
 
 .about .content ul {
@@ -613,7 +613,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #000000;
 }
 
 .about .content p:last-child {
@@ -649,7 +649,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(240deg, #000000 0%, rgba(255, 255, 255, 0.5) 200%);
   padding: 80px 0 60px 0;
 }
 
@@ -713,7 +713,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: #000000;
   transition: ease-in-out 0.3s;
 }
 
@@ -729,7 +729,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #000000;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -749,7 +749,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #db6464;
 }
 
 .services .iconbox-pink i {
@@ -847,7 +847,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #000000;
 }
 
 .features .icon-box p {
@@ -1257,7 +1257,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #000000 0%, rgb(255, 215, 0) 100%);
+  background: linear-gradient(42deg, #0000009c 0%, rgb(255, 255, 255, 0.5) 100%), url("../img/obrázky/mwm\ logo.jpg") center center no-repeat;
 }
 
 .faq .section-title h2,
