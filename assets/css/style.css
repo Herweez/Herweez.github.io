@@ -472,7 +472,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #000000;
 }
 
 #hero .animated {
@@ -630,12 +630,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: #413f3f;
+  background: #202020;
   position: relative;
 }
 
 .about .content .read-more:hover {
-  background:rgb(245, 216, 0);
+  background:rgb(0, 0, 0);
 }
 
 .about .content .read-more i {
@@ -1303,7 +1303,7 @@ section {
 }
 
 .faq .faq-list a:hover {
-  color: rgb(255, 215, 0); /* Přidáno, aby text změnil barvu při hoveru */
+  color: rgb(0, 0, 0); /* Přidáno, aby text změnil barvu při hoveru */
 }
 
 .faq .faq-list .icon-help {
@@ -1311,7 +1311,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: rgb(255, 215, 0);
+  color: rgb(0, 0, 0);
 }
 
 .faq .faq-list .icon-show,
@@ -1336,7 +1336,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: rgb(255, 215, 0);
+  color: rgb(83, 83, 83);
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1370,14 +1370,14 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #000000;
   border-radius: 50%;
   padding: 8px;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #2c4964;
+  color: #000000;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1538,9 +1538,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
-  background:url("../img/obrázky/mwm\ logo.jpg") center center no-repeat;
+  background: black;
   background-size: cover;
 }
 
