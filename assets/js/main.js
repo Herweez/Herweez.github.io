@@ -269,5 +269,33 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+  document.addEventListener("DOMContentLoaded", function() {
+    function calculateDays(startDate) {
+        const start = new Date(startDate);
+        const now = new Date();
+        const diffTime = Math.abs(now - start);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        return diffDays;
+    }
+
+    function updateCounter() {
+        const counterElement = document.getElementById('days-counter');
+        const startDate = counterElement.getAttribute('data-startdate');
+        if (startDate) {
+            const totalDays = calculateDays(startDate);
+            let currentDay = 0;
+            const interval = setInterval(() => {
+                if (currentDay <= totalDays) {
+                    counterElement.innerText = currentDay;
+                    currentDay++;
+                } else {
+                    clearInterval(interval);
+                }
+            }, 10); // Aktualizace každých 10ms pro efekt postupného počítání
+        }
+    }
+
+    updateCounter(); // Initial update
+});
 
 })()
